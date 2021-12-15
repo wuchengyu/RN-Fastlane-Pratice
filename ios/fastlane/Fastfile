@@ -49,4 +49,30 @@ platform :ios do
       )
 
   end
+
+  desc "Testflight"
+  lane :testflight do
+
+      increment_build_number(
+        build_number: build_number + 1,
+      )
+
+      sync_code_signing(type: "appstore")
+
+      build_app(
+        workspace: "RNFastlanePratice.xcworkspace",
+        scheme: "RNFastlanePratice",
+        include_bitcode: false,
+        export_options: {
+            uploadBitcode: false,
+            uploadSymbols: true,
+            compileBitcode: false
+        },
+        output_directory: './output',
+      )
+      # build_ios_app is a built-in fastlane action.
+
+      upload_to_testflight
+
+  end
 end

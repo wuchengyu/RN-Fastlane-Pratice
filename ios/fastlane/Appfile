@@ -1,0 +1,14 @@
+# app_identifier("[[APP_IDENTIFIER]]") # The bundle identifier of your app
+# apple_id("[[APPLE_ID]]") # Your Apple email address
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+app_identifier "org.reactjs.native.example.RNFastlanePratice"       # The bundle identifier of your app
+
+apple_dev_portal_id "portal@company.com"  # Apple Developer Account
+itunes_connect_id "tunes@company.com"     # App Store Connect Account
+
+# team_id "Q2CBPJ58CA" # Developer Portal Team ID
+# itc_team_id "18742801" # App Store Connect Team ID
