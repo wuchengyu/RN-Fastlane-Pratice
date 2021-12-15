@@ -40,6 +40,7 @@
 		413B6A56CE8EE3BD06B9FEB3 /* libPods-RNFastlanePratice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFastlanePratice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46103605A0E3CDE1C8E44BA7 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice-RNFastlanePraticeTests/Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig"; sourceTree = "<group>"; };
 		576687B294AF089DCD9C9683 /* libPods-RNFastlanePratice-RNFastlanePraticeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFastlanePratice-RNFastlanePraticeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAA110C2769EB9C00083D9D /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNFastlanePratice/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		927B1A17F948BD7ED13F87F9 /* Pods-RNFastlanePratice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice.debug.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice/Pods-RNFastlanePratice.debug.xcconfig"; sourceTree = "<group>"; };
 		CCC7814F023352776A66425A /* Pods-RNFastlanePratice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice.release.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice/Pods-RNFastlanePratice.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +117,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				7DAA110C2769EB9C00083D9D /* Config.xcconfig */,
 				13B07FAE1A68108700A75B9A /* RNFastlanePratice */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNFastlanePraticeTests */,
@@ -145,7 +147,6 @@
 				074162A421833E250809EC6B /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debug.xcconfig */,
 				46103605A0E3CDE1C8E44BA7 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -494,6 +495,7 @@
 		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAA110C2769EB9C00083D9D /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -560,6 +562,7 @@
 		};
 		83CBBA211A601CBA00E9B192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAA110C2769EB9C00083D9D /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;

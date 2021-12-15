@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  RNFastlanePratice
+//
+//  Created by Jamie on 2021/12/15.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include? "tmp.xcconfig"
