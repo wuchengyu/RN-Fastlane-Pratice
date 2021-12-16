@@ -1,7 +1,18 @@
+using_bundler = defined? Bundler
+unless using_bundler
+  puts "\nPlease re-run using:".red
+  puts "  bundle exec pod install\n\n"
+  exit(1)
+end
+
+DEPLOYMENT_TARGET = '11.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, DEPLOYMENT_TARGET
+inhibit_all_warnings!
+
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '11.0'
 
 target 'RNFastlanePratice' do
   config = use_native_modules!
@@ -31,5 +42,25 @@ target 'RNFastlanePratice' do
   post_install do |installer|
     react_native_post_install(installer)
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
+
+    # flipper_post_install(installer)
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = DEPLOYMENT_TARGET
+        config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'NO'
+      end
+    end
+
+    # 將其他 Debug mod 設定為 debug 模式
+    installer.pods_project.build_configurations.each do |config|
+      if config.name.start_with?("Debug")
+        config.build_settings["GCC_PREPROCESSOR_DEFINITIONS"].push("DEBUG=1")
+        config.build_settings["GCC_OPTIMIZATION_LEVEL"] = 0
+        config.build_settings["DEBUG_INFORMATION_FORMAT"] = "dwarf"
+        config.build_settings["SWIFT_ACTIVE_COMPILATION_CONDITIONS"] = "DEBUG"
+        config.build_settings["MTL_ENABLE_DEBUG_INFO"] = "YES"
+      end
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+    end
   end
 end

@@ -37,13 +37,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNFastlanePratice/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNFastlanePratice/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNFastlanePratice/main.m; sourceTree = "<group>"; };
+		2D24680BCC1EE5405477ADCB /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice-RNFastlanePraticeTests.debugstaging.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice-RNFastlanePraticeTests/Pods-RNFastlanePratice-RNFastlanePraticeTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		3F1014375725EF6B8CA19009 /* Pods-RNFastlanePratice.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice.releasestaging.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice/Pods-RNFastlanePratice.releasestaging.xcconfig"; sourceTree = "<group>"; };
 		413B6A56CE8EE3BD06B9FEB3 /* libPods-RNFastlanePratice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFastlanePratice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46103605A0E3CDE1C8E44BA7 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice-RNFastlanePraticeTests/Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8A318E090E1BFB219B52F5 /* Pods-RNFastlanePratice.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice.debugstaging.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice/Pods-RNFastlanePratice.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		576687B294AF089DCD9C9683 /* libPods-RNFastlanePratice-RNFastlanePraticeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFastlanePratice-RNFastlanePraticeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DAA110C2769EB9C00083D9D /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNFastlanePratice/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		925627FD30CF0A8A29204DEA /* Pods-RNFastlanePratice.releaseproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice.releaseproduction.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice/Pods-RNFastlanePratice.releaseproduction.xcconfig"; sourceTree = "<group>"; };
 		927B1A17F948BD7ED13F87F9 /* Pods-RNFastlanePratice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice.debug.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice/Pods-RNFastlanePratice.debug.xcconfig"; sourceTree = "<group>"; };
+		9A60E8D4771BD766807F0CB0 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice-RNFastlanePraticeTests.releasestaging.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice-RNFastlanePraticeTests/Pods-RNFastlanePratice-RNFastlanePraticeTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		A00EDA8E94F64B2A7DD074D6 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.releaseproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice-RNFastlanePraticeTests.releaseproduction.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice-RNFastlanePraticeTests/Pods-RNFastlanePratice-RNFastlanePraticeTests.releaseproduction.xcconfig"; sourceTree = "<group>"; };
+		AAE2337619BFFE6A57FC2ED3 /* Pods-RNFastlanePratice.debugproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice.debugproduction.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice/Pods-RNFastlanePratice.debugproduction.xcconfig"; sourceTree = "<group>"; };
 		CCC7814F023352776A66425A /* Pods-RNFastlanePratice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice.release.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice/Pods-RNFastlanePratice.release.xcconfig"; sourceTree = "<group>"; };
+		CF6EEC87698F7A9D7A6A2E9A /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debugproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFastlanePratice-RNFastlanePraticeTests.debugproduction.xcconfig"; path = "Target Support Files/Pods-RNFastlanePratice-RNFastlanePraticeTests/Pods-RNFastlanePratice-RNFastlanePraticeTests.debugproduction.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -146,6 +154,14 @@
 				CCC7814F023352776A66425A /* Pods-RNFastlanePratice.release.xcconfig */,
 				074162A421833E250809EC6B /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debug.xcconfig */,
 				46103605A0E3CDE1C8E44BA7 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig */,
+				4F8A318E090E1BFB219B52F5 /* Pods-RNFastlanePratice.debugstaging.xcconfig */,
+				AAE2337619BFFE6A57FC2ED3 /* Pods-RNFastlanePratice.debugproduction.xcconfig */,
+				3F1014375725EF6B8CA19009 /* Pods-RNFastlanePratice.releasestaging.xcconfig */,
+				925627FD30CF0A8A29204DEA /* Pods-RNFastlanePratice.releaseproduction.xcconfig */,
+				2D24680BCC1EE5405477ADCB /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debugstaging.xcconfig */,
+				CF6EEC87698F7A9D7A6A2E9A /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debugproduction.xcconfig */,
+				9A60E8D4771BD766807F0CB0 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.releasestaging.xcconfig */,
+				A00EDA8E94F64B2A7DD074D6 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.releaseproduction.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -392,9 +408,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
+		00E356F61AD99517003FC87E /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 074162A421833E250809EC6B /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debug.xcconfig */;
+			baseConfigurationReference = 2D24680BCC1EE5405477ADCB /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debugstaging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -417,11 +433,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNFastlanePratice.app/RNFastlanePratice";
 			};
-			name = Debug;
+			name = DebugStaging;
 		};
-		00E356F71AD99517003FC87E /* Release */ = {
+		00E356F71AD99517003FC87E /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46103605A0E3CDE1C8E44BA7 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.release.xcconfig */;
+			baseConfigurationReference = 9A60E8D4771BD766807F0CB0 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.releasestaging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -441,11 +457,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNFastlanePratice.app/RNFastlanePratice";
 			};
-			name = Release;
+			name = ReleaseStaging;
 		};
-		13B07F941A680F5B00A75B9A /* Debug */ = {
+		13B07F941A680F5B00A75B9A /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 927B1A17F948BD7ED13F87F9 /* Pods-RNFastlanePratice.debug.xcconfig */;
+			baseConfigurationReference = 4F8A318E090E1BFB219B52F5 /* Pods-RNFastlanePratice.debugstaging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -467,11 +483,11 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Debug;
+			name = DebugStaging;
 		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
+		13B07F951A680F5B00A75B9A /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCC7814F023352776A66425A /* Pods-RNFastlanePratice.release.xcconfig */;
+			baseConfigurationReference = 3F1014375725EF6B8CA19009 /* Pods-RNFastlanePratice.releasestaging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -491,9 +507,117 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Release;
+			name = ReleaseStaging;
 		};
-		83CBBA201A601CBA00E9B192 /* Debug */ = {
+		7D3FEAB6276AD69500FDF5BD /* ReleaseProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAA110C2769EB9C00083D9D /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseProduction;
+		};
+		7D3FEAB7276AD69500FDF5BD /* ReleaseProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925627FD30CF0A8A29204DEA /* Pods-RNFastlanePratice.releaseproduction.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = RNFastlanePratice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RNFastlanePratice;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = ReleaseProduction;
+		};
+		7D3FEAB8276AD69500FDF5BD /* ReleaseProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00EDA8E94F64B2A7DD074D6 /* Pods-RNFastlanePratice-RNFastlanePraticeTests.releaseproduction.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = RNFastlanePraticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNFastlanePratice.app/RNFastlanePratice";
+			};
+			name = ReleaseProduction;
+		};
+		7D3FEAB9276AD6A000FDF5BD /* DebugProduction */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DAA110C2769EB9C00083D9D /* Config.xcconfig */;
 			buildSettings = {
@@ -558,9 +682,129 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
-			name = Debug;
+			name = DebugProduction;
 		};
-		83CBBA211A601CBA00E9B192 /* Release */ = {
+		7D3FEABA276AD6A000FDF5BD /* DebugProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE2337619BFFE6A57FC2ED3 /* Pods-RNFastlanePratice.debugproduction.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RNFastlanePratice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RNFastlanePratice;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = DebugProduction;
+		};
+		7D3FEABB276AD6A000FDF5BD /* DebugProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6EEC87698F7A9D7A6A2E9A /* Pods-RNFastlanePratice-RNFastlanePraticeTests.debugproduction.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNFastlanePraticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNFastlanePratice.app/RNFastlanePratice";
+			};
+			name = DebugProduction;
+		};
+		83CBBA201A601CBA00E9B192 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAA110C2769EB9C00083D9D /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = DebugStaging;
+		};
+		83CBBA211A601CBA00E9B192 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DAA110C2769EB9C00083D9D /* Config.xcconfig */;
 			buildSettings = {
@@ -618,7 +862,7 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = ReleaseStaging;
 		};
 /* End XCBuildConfiguration section */
 
@@ -626,29 +870,35 @@
 		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNFastlanePraticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
+				00E356F61AD99517003FC87E /* DebugStaging */,
+				7D3FEABB276AD6A000FDF5BD /* DebugProduction */,
+				00E356F71AD99517003FC87E /* ReleaseStaging */,
+				7D3FEAB8276AD69500FDF5BD /* ReleaseProduction */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = ReleaseProduction;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNFastlanePratice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
-				13B07F951A680F5B00A75B9A /* Release */,
+				13B07F941A680F5B00A75B9A /* DebugStaging */,
+				7D3FEABA276AD6A000FDF5BD /* DebugProduction */,
+				13B07F951A680F5B00A75B9A /* ReleaseStaging */,
+				7D3FEAB7276AD69500FDF5BD /* ReleaseProduction */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = ReleaseProduction;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNFastlanePratice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83CBBA201A601CBA00E9B192 /* Debug */,
-				83CBBA211A601CBA00E9B192 /* Release */,
+				83CBBA201A601CBA00E9B192 /* DebugStaging */,
+				7D3FEAB9276AD6A000FDF5BD /* DebugProduction */,
+				83CBBA211A601CBA00E9B192 /* ReleaseStaging */,
+				7D3FEAB6276AD69500FDF5BD /* ReleaseProduction */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = ReleaseProduction;
 		};
 /* End XCConfigurationList section */
 	};
