@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply plugin: 'com.google.firebase.appdistribution'
 
 import com.android.build.OutputFile
 
@@ -8,8 +9,10 @@ plugins {
 }
 
 project.ext.envConfigFiles = [
-    debug: ".env.development",
-    release: ".env.production",
+    debugStaging: ".env.DebugStaging",
+    releaseStaging: ".env.ReleaseStaging",
+    debugProduction: ".env.DebugProduction",
+    releaseProduction: ".env.ReleaseProduction",
 ]
 
 apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
@@ -184,8 +187,26 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+
+            firebaseAppDistribution {
+                groups = "tester"
+            }
         }
     }
+    flavorDimensions "version"
+    productFlavors {
+        staging {
+            dimension "version"
+            applicationIdSuffix ".staging"
+            firebaseAppDistribution {
+                releaseNotesFile = "./releasenotes.txt"
+            }
+        }
+        production {
+            dimension "version"
+        }
+    }
+
 
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
