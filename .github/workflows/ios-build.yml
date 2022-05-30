@@ -1,0 +1,50 @@
+name: Build ios
+
+on:
+  push:
+    branches: 
+      - develop
+
+jobs:
+  build:
+    name: Automatic Build
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # - name: Setup Node
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     cache: 'yarn'
+      - name: Install Node
+        run: yarn install
+      # - name: Test
+      #   run: yarn test
+      - name: Setup Ruby and install gems
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          working-directory: ios
+      - name: Install bunder
+        working-directory: ios
+        run: bundle install --jobs 4 --retry 3
+      - name: Cocoapods cache
+        uses: actions/cache@v3
+        id: pod-cache
+        with:
+          path: ios/Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pods-
+      - name: Print build number
+        working-directory: ios
+        run: bundle exec fastlane print_build_number
+      # - name: Build
+      #   env:
+      #     scheme: ${{ 'default' }}
+      #   run: |
+      #     if [ $scheme = default ]; then scheme=$(cat default); fi
+      #     if [ "`ls -A | grep -i \\.xcworkspace\$`" ]; then filetype_parameter="workspace" && file_to_build="`ls -A | grep -i \\.xcworkspace\$`"; else filetype_parameter="project" && file_to_build="`ls -A | grep -i \\.xcodeproj\$`"; fi
+      #     file_to_build=`echo $file_to_build | awk '{$1=$1;print}'`
+      #     xcodebuild clean build analyze -scheme "$scheme" -"$filetype_parameter" "$file_to_build" | xcpretty && exit ${PIPESTATUS[0]}

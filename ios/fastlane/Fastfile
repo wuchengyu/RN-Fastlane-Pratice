@@ -76,3 +76,7 @@ platform :ios do
 
   end
 end
+
+lane :print_build_number do
+  puts("current build number is #{build_number}")
+end
