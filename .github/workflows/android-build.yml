@@ -6,6 +6,7 @@ on:
       - android
 
 jobs:
+
   build:
 
     runs-on: ubuntu-latest
@@ -31,7 +32,7 @@ jobs:
       run: chmod +x gradlew
     - name: Install dependencies
       working-directory: android
-      run: ./gradlew androidDependencies
+      run: ./gradlew androidDependencies  --no-daemon
     - name: Build
       working-directory: android
       run: ./gradlew assembleReleaseStaging
