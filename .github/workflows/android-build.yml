@@ -32,7 +32,7 @@ jobs:
       run: chmod +x gradlew
     - name: Install dependencies
       working-directory: android
-      run: ./gradlew androidDependencies  --no-daemon
+      run: ./gradlew build
     - name: Build
       working-directory: android
       run: ./gradlew assembleReleaseStaging
